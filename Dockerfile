@@ -1,6 +1,6 @@
 FROM php:7.1.11-fpm
 
-MAINTAINER Vincent Letourneau <vincent@nanoninja.com>
+MAINTAINER Eugeny Artemyev <artee2025@gmail.com>
 
 RUN apt-get update && apt-get upgrade -y \
     libfreetype6-dev \
