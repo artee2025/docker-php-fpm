@@ -1,6 +1,6 @@
 FROM php:7.1.11-fpm
 
-MAINTAINER Eugeny Artemyev <artee2025@gmail.com>
+MAINTAINER Evgeny Artemyev <artee2025@gmail.com>
 
 RUN apt-get update && apt-get upgrade -y \
     libfreetype6-dev \
@@ -24,7 +24,7 @@ RUN apt-get update && apt-get upgrade -y \
         mcrypt \
         mysqli \
         pgsql \
-        pdo\
+        PDO \
         pdo_mysql \
         pdo_pgsql \
         soap \
